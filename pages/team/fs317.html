@@ -2,22 +2,89 @@
 <html>
 <head>
     <title>fs317</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
 </head>
-<body>
+<body style="overflow: hidden;">
+    <div
+      style="
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 36%;
+        height: 100%;
+        z-index: -1; /* Set z-index to be behind other content */
+        background-image: url('/static/images/robercik.webp');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.6;
+      "
+    ></div>
+    <div
+      style="
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 36%;
+        height: 100%;
+        z-index: -1; /* Set z-index to be behind other content */
+        background-image: url('/static/images/robercik.webp');
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        opacity: 0.6;
+      "
+    ></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">web equipo</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="./fs317.html">fs317</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./ku232.html">ku232</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./mherman262.html">mherman262</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <main class="d-flex p-5 flex-column align-items-center justify-content-center">
+        <h1>Franek Suszko</h1>
+        <p>fs317@inlumine.ual.es</p>
+        <img src="/static/images/fs317.jpg" style="width: 20vw; border-radius: 50px;" alt="photo of me"><br>
+        <a class="btn btn-secondary" href="https://github.com/fs317">mi perfil de GitHub</a><br><br>
+        <p style="background: grey; color: white; border-radius: 5px; padding: 3px;"> 
+            Me gusta crear buen software :&#41
+        </p>
+      </main>
 
-<h1>Franek Suszko</h1>
-<p>fs317@inlumine.ual.es</p>
-<img src="/static/images/fs317.jpg" style="width: 20vw;" alt="photo of me"><br>
-<a href="https://github.com/fs317">mi perfil de GitHub</a><br><br>
-
-<div> 
-    Me gusta crear buen software :&#41
-</div>
 
 <br>
-<a href="/pages/index.html">ir a página de inicio</a><br>
-<a href="./ku232.html">ir a ku232</a><br>
-<a href="./mherman242.html">ir a mherman242</a>
-
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
 </body>
 </html>
